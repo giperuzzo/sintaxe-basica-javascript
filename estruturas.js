@@ -37,11 +37,30 @@ switch(opcao) {
 */
 
 //laços de repetição
+
+/*
 let contador = 0 //estrutura de incremento vc pode usar pre-incremento(++contador) e decremento --
 
-while /*enquanto*/ (contador < 10) {
+while /*enquanto (contador < 10) {
     console.log(contador++);
    
 
+}*/
+/* estrututs de repetição
+do {//faça enquanto 
+    console.log(++contador);
+}while (contador <10)
+
+let contador = 0
+for (let i=0 < 5; i++) {
+    console.log(i)
 }
+*/
+
+function exemplo() {
+    for (let i = 0; i < 5; i++)
+    console.log(i)
+}
+
+
 
